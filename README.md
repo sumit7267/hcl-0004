@@ -16,6 +16,10 @@ Daily work from HCL Ascend Java Full Stack training.
 - Constructor overloading and parameterized constructor
 - Inheritance (single, multilevel, hierarchical), `super`, method overriding
 
+### 9 Oct 2026 
+- Encapsulation
+
+
 ## Structure
 - `src/coreJavaFoundation` : core Java programs
 - `src/OOPS` : OOPS concepts (constructors, inheritance, access modifiers)

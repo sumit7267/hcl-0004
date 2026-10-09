@@ -14,32 +14,31 @@ class Animal {
     }
 }
 
-// Single inheritance: Animal -> Dog
+
 class Dog extends Animal {
     void bark() {
         System.out.println("Dog bhokta hai");
     }
 
-    // Method overriding: parent ka method apne tareeke se likha
+    // Method overriding
     @Override
     void sound() {
         System.out.println("Dog: Bhow Bhow");
     }
 
     void show() {
-        System.out.println(super.type);   // super se parent ka variable
-        super.sound();                    // super se parent ka method
+        System.out.println(super.type);
+        super.sound();
     }
 }
 
-// Multilevel inheritance: Animal -> Dog -> Puppy
 class Puppy extends Dog {
     void weep() {
         System.out.println("Puppy rota hai");
     }
 }
 
-// Hierarchical inheritance: Animal -> Cat (Dog ke saath)
+
 class Cat extends Animal {
     @Override
     void sound() {
@@ -51,20 +50,20 @@ public class InheritanceDemo {
     public static void main(String[] args) {
         System.out.println("--- Single ---");
         Dog d = new Dog();
-        d.eat();        // parent se mila
-        d.bark();       // apna
-        d.sound();      // overridden
+        d.eat();
+        d.bark();
+        d.sound();
         d.show();
 
         System.out.println("--- Multilevel ---");
         Puppy p = new Puppy();
-        p.eat();        // Animal se
-        p.bark();       // Dog se
-        p.weep();       // apna
+        p.eat();
+        p.bark();
+        p.weep();
 
         System.out.println("--- Hierarchical ---");
         Cat c = new Cat();
-        c.eat();        // Animal se
-        c.sound();      // overridden
+        c.eat();
+        c.sound();
     }
 }

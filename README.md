@@ -18,7 +18,7 @@ Daily work from HCL Ascend Java Full Stack training.
 
 ### 9 Oct 2026 
 - Encapsulation
-
+-Collection
 
 ## Structure
 - `src/coreJavaFoundation` : core Java programs

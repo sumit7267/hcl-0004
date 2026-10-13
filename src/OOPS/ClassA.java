@@ -1,7 +1,7 @@
 
 package OOPS;
 
-// constructor banaya humne isme
+
 
 public class ClassA{
 

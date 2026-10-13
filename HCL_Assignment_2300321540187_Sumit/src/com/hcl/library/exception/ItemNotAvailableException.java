@@ -1,5 +1,4 @@
-package Assignment2CoreJava;
-
+package com.hcl.library.exception;
 
 
 public class ItemNotAvailableException extends LibraryException {

@@ -11,7 +11,9 @@ public class AppConfig {
             return new Address();
         }
 
-        public Employee employee (Address address){
+        @Bean
+        public Employee employee (Address address)
+        {
             return new Employee(address);
         }
     }

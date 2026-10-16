@@ -7,7 +7,7 @@ public class Employee {
         this.address=address;
     }
 
-    public void getEmployee(){
+    public void getEmpAddress(){
         address.getAddress();
     }
 }
